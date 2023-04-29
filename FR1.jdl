@@ -1,0 +1,49 @@
+
+entity UserProfile {
+	phone String
+}
+entity Vehicle {
+	make String,
+    model String,
+    licenseNumber String,
+    mileage Integer,
+    vehicleYear Integer
+}
+
+entity Appointment {
+	timeSlot LocalDate
+}
+
+entity Shop {
+	name String,
+    phoneNumber String,
+	address String,
+    fairRepairRating Integer,
+    services Service
+}
+
+enum Service {
+    OIL_CHANGE, TIRE_ROTATION, BRAKE_SERVICE, PPF, TINT, DETAILING, AIR_FILTER, CERAMIC_COATING
+}
+
+//relationship ManyToOne {
+//	Vehicle{user(login)} to User
+//}
+relationship OneToOne {
+	UserProfile{user} to User,
+    Vehicle{appointment} to Appointment
+}
+relationship OneToMany {
+    UserProfile to Vehicle,
+    UserProfile{appointment} to Appointment
+}
+
+relationship ManyToOne {
+    Appointment{shop} to Shop
+}
+//relationship ManyToOne {
+//    Appointment{shop} to Shop
+//}
+
+
+

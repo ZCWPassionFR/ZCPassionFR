@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20230429190833",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "appointment",
+  "fields": [
+    {
+      "fieldName": "timeSlot",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Appointment",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "shop",
+      "relationshipName": "shop",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "userProfile",
+      "otherEntityRelationshipName": "appointment",
+      "relationshipName": "userProfile",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

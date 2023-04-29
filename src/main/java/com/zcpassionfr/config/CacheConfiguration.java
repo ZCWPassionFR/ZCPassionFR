@@ -48,6 +48,12 @@ public class CacheConfiguration {
             createCache(cm, com.zcpassionfr.domain.User.class.getName());
             createCache(cm, com.zcpassionfr.domain.Authority.class.getName());
             createCache(cm, com.zcpassionfr.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.zcpassionfr.domain.UserProfile.class.getName());
+            createCache(cm, com.zcpassionfr.domain.UserProfile.class.getName() + ".vehicles");
+            createCache(cm, com.zcpassionfr.domain.UserProfile.class.getName() + ".appointments");
+            createCache(cm, com.zcpassionfr.domain.Vehicle.class.getName());
+            createCache(cm, com.zcpassionfr.domain.Appointment.class.getName());
+            createCache(cm, com.zcpassionfr.domain.Shop.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

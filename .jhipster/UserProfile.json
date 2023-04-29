@@ -1,0 +1,39 @@
+{
+  "applications": "*",
+  "changelogDate": "20230429190831",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "user_profile",
+  "fields": [
+    {
+      "fieldName": "phone",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "UserProfile",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "user",
+      "ownerSide": true,
+      "relationshipName": "user",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "vehicle",
+      "otherEntityRelationshipName": "userProfile",
+      "relationshipName": "vehicle",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "appointment",
+      "otherEntityRelationshipName": "userProfile",
+      "relationshipName": "appointment",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}
