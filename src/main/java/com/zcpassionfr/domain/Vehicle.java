@@ -153,7 +153,8 @@ public class Vehicle implements Serializable {
         return this;
     }
 
-    // jhipster-needle-entity-add-getters-setters - JHipster will add getters and setters here
+    // jhipster-needle-entity-add-getters-setters - JHipster will add getters and
+    // setters here
 
     @Override
     public boolean equals(Object o) {
@@ -168,7 +169,8 @@ public class Vehicle implements Serializable {
 
     @Override
     public int hashCode() {
-        // see https://vladmihalcea.com/how-to-implement-equals-and-hashcode-using-the-jpa-entity-identifier/
+        // see
+        // https://vladmihalcea.com/how-to-implement-equals-and-hashcode-using-the-jpa-entity-identifier/
         return getClass().hashCode();
     }
 
@@ -176,12 +178,12 @@ public class Vehicle implements Serializable {
     @Override
     public String toString() {
         return "Vehicle{" +
-            "id=" + getId() +
-            ", make='" + getMake() + "'" +
-            ", model='" + getModel() + "'" +
-            ", licenseNumber='" + getLicenseNumber() + "'" +
-            ", mileage=" + getMileage() +
-            ", vehicleYear=" + getVehicleYear() +
-            "}";
+                "id=" + getId() +
+                ", make='" + getMake() + "'" +
+                ", model='" + getModel() + "'" +
+                ", licenseNumber='" + getLicenseNumber() + "'" +
+                ", mileage=" + getMileage() +
+                ", vehicleYear=" + getVehicleYear() +
+                "}";
     }
 }
