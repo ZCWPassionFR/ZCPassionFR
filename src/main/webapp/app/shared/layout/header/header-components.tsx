@@ -26,3 +26,19 @@ export const Home = () => (
     </NavLink>
   </NavItem>
 );
+export const Vehicles = () => (
+  <NavItem>
+    <NavLink tag={Link} to="/vehicle" className="d-flex align-items-center">
+      <FontAwesomeIcon icon="home" />
+      <span>My Vehicles</span>
+    </NavLink>
+  </NavItem>
+);
+export const AddVehicle = () => (
+  <NavItem>
+    <NavLink tag={Link} to="/vehicle/new" className="d-flex align-items-center">
+      <FontAwesomeIcon icon="home" />
+      <span>Add New Vehicle</span>
+    </NavLink>
+  </NavItem>
+);
