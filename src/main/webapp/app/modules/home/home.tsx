@@ -17,13 +17,6 @@ export const Home = () => {
       </Col>
       <Col md="9">
         <h2>FairRepair</h2>
-        <button type="button" className="btn btn-success">
-          Schedule an Appointment
-        </button>
-        <div className="divider" />
-        <button type="button" className="btn btn-danger">
-          Add a Vehicle
-        </button>
         <p className="lead">Make car appointments Fair!</p>
         {account?.login ? (
           <div>
