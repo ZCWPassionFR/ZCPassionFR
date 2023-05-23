@@ -32,12 +32,9 @@ export const Vehicle = () => {
       <h2 id="vehicle-heading" data-cy="VehicleHeading">
         Vehicles
         <div className="d-flex justify-content-end">
-          <Button className="me-2" color="info" onClick={handleSyncList} disabled={loading}>
-            <FontAwesomeIcon icon="sync" spin={loading} /> Refresh list
-          </Button>
           <Link to="/vehicle/new" className="btn btn-primary jh-create-entity" id="jh-create-entity" data-cy="entityCreateButton">
             <FontAwesomeIcon icon="plus" />
-            &nbsp; Create a new Vehicle
+            &nbsp; Add New Vehicle
           </Link>
         </div>
       </h2>

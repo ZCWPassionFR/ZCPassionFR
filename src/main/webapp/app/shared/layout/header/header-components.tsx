@@ -3,6 +3,7 @@ import React from 'react';
 import { NavItem, NavLink, NavbarBrand } from 'reactstrap';
 import { NavLink as Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCar } from '@fortawesome/free-solid-svg-icons';
 
 export const BrandIcon = props => (
   <div {...props} className="brand-icon">
@@ -29,16 +30,8 @@ export const Home = () => (
 export const Vehicles = () => (
   <NavItem>
     <NavLink tag={Link} to="/vehicle" className="d-flex align-items-center">
-      <FontAwesomeIcon icon="home" />
+      <FontAwesomeIcon icon={faCar} />
       <span>My Vehicles</span>
-    </NavLink>
-  </NavItem>
-);
-export const AddVehicle = () => (
-  <NavItem>
-    <NavLink tag={Link} to="/vehicle/new" className="d-flex align-items-center">
-      <FontAwesomeIcon icon="home" />
-      <span>Add New Vehicle</span>
     </NavLink>
   </NavItem>
 );
