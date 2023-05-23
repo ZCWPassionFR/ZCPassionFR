@@ -25,9 +25,6 @@ export const Home = () => {
               Schedule an Appointment
             </button>
             <div className="divider" />
-            <button type="button" className="btn btn-danger">
-              Add a Vehicle
-            </button>
             <p className="lead">Make car appointments Fair!</p>
           </div>
         ) : (
