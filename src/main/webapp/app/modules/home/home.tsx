@@ -17,22 +17,34 @@ export const Home = () => {
       </Col>
       <Col md="9">
         <h2>FairRepair</h2>
+        <button type="button" className="btn btn-success">
+          Schedule an Appointment
+        </button>
+        <div className="divider" />
+        <button type="button" className="btn btn-danger">
+          Add a Vehicle
+        </button>
         <p className="lead">Make car appointments Fair!</p>
         {account?.login ? (
           <div>
             <Alert color="success">Welcome {account.login}.</Alert>
+            <button type="button" className="btn btn-success">
+              Schedule an Appointment
+            </button>
+            <div className="divider" />
+            <button type="button" className="btn btn-danger">
+              Add a Vehicle
+            </button>
+            <p className="lead">Make car appointments Fair!</p>
           </div>
         ) : (
           <div>
             <Alert color="warning">
-              If you want to
+              Welcome back! Please
               <span>&nbsp;</span>
               <Link to="/login" className="alert-link">
-                sign in
+                sign in.
               </Link>
-              , you can try the default accounts:
-              <br />- Administrator (login=&quot;admin&quot; and password=&quot;admin&quot;) <br />- User (login=&quot;user&quot; and
-              password=&quot;user&quot;).
             </Alert>
 
             <Alert color="warning">
