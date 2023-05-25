@@ -1,4 +1,10 @@
-# ZCPassionFR
+# ZCPassion FairRepair - Nina McNair & James Jang
+
+<img width="643" alt="Screen Shot 2023-05-25 at 2 27 52 PM" src="https://github.com/ZCWPassionFR/ZCPassionFR/assets/117940085/c8a5b418-1079-430e-ba1a-bfe78664c70e"><img width="811" alt="Screen Shot 2023-05-25 at 2 28 19 PM" <img width="860" alt="Screen Shot 2023-05-25 at 2 28 27 PM" src="https://github.com/ZCWPassionFR/ZCPassionFR/assets/117940085/b28e4e4c-0357-4881-9599-503bbe217c45">
+src="https://github.com/ZCWPassionFR/ZCPassionFR/assets/117940085/b78ea536-17bf-4d3a-93bd-341300343513">
+
+
+
 
 This application was generated using JHipster 7.9.3, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.9.3](https://www.jhipster.tech/documentation-archive/v7.9.3).
 
