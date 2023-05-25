@@ -1,11 +1,9 @@
 # ZCPassion FairRepair - Nina McNair & James Jang
+<img width="311" alt="Screen Shot 2023-05-25 at 2 36 47 PM" src="https://github.com/ZCWPassionFR/ZCPassionFR/assets/117940085/b70a09ea-159c-4ce6-b33d-444fc7c49d5e">
+<img width="313" alt="Screen Shot 2023-05-25 at 2 36 56 PM" src="https://github.com/ZCWPassionFR/ZCPassionFR/assets/117940085/dd45385d-21ed-4e5a-a4af-94b5e7a8bc2c">
 
-<img width="643" alt="Screen Shot 2023-05-25 at 2 27 52 PM" src="https://github.com/ZCWPassionFR/ZCPassionFR/assets/117940085/68a1519a-8b9b-4d03-850e-71fa91f0cd3a">
+<img width="315" alt="Screen Shot 2023-05-25 at 2 37 06 PM" src="https://github.com/ZCWPassionFR/ZCPassionFR/assets/117940085/6d7e06b5-6449-4685-8b0a-ba2637419274">
 
-<img width="811" alt="Screen Shot 2023-05-25 at 2 28 19 PM" src="https://github.com/ZCWPassionFR/ZCPassionFR/assets/117940085/8b7e00d4-349a-444a-9485-15489dac6b1a">
-
-
-<img width="860" alt="Screen Shot 2023-05-25 at 2 28 27 PM" src="https://github.com/ZCWPassionFR/ZCPassionFR/assets/117940085/2d99ab20-c623-4341-931b-206005b19410">
 
 
 
